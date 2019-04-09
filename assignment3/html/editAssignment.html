@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Edit an Assignment</title>
+  <link rel="stylesheet" type ="text/css" href="../styles/editAssignment.css">
+</head>
+<body>
+  <h2>Edit an Assignment</h2>
+    <div>
+      <form action="#">
+        <label for="assignmentId">Assignment ID:</label>
+        <br>
+        <input type="number" name="assignmentId" min="100" max="199" value="105">
+        <br>
+        <label for="courseId">Course ID:</label>
+        <br>
+        <input type="number" name="courseId" min="200" max="299" value="203">
+        <br>
+        <label for="title">Title:</label>
+        <br>
+        <input type="text" name="title" value ="Assignment1" maxlength="45">
+        <br>
+        <label for="courseId">Description:</label>
+        <br>
+        <input type="text" name="description" value ="Add / Edit / Update Form for Assignments" maxlength="45">
+        <br>
+        <label for="dateAndTime">Submission Date and Time:</label>
+        <br>
+        <input type="date" name="subDate" value="2019-03-15">
+        <input type="time" name="subTime" value="23:59">
+        <br>
+        <label for="oralMark">Oral Mark:</label>
+        <input type="text" name="oralMark" value="20">
+        <br>
+        <label for="totalMark">Total Mark:</label>
+        <input type="text" name="totalMark" value="80">
+        <br>
+        <input type="submit" value="Submit" onclick="window.alert('Submitted Successfully!')">
+        <input type="reset" value="Delete" onclick="window.alert('Deleted Successfully!')">
+      </form>
+    </div> 
+</body>
+</html>

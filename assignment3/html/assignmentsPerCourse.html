@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="name" content="content">
+      <title>Assignments per Course</title>
+      <link rel="stylesheet" type ="text/css" href="../styles/studentsPerCourse.css">
+      <script src="../scripts/studentsPerCourse.js" type="text/javascript" charset="utf-8" async defer></script>
+    </head>
+      <body>
+        <h2>Form with Assignments per Course</h2>
+        <div>
+          <form action="#" id="select">
+            <label for="courseid">Course ID:</label>
+            <select name="id" id="sid">
+              <option value="cid1">202</option>
+              <option value="cid2">203</option>
+            </select>
+            <label for="coursetitle">Title:</label>
+            <select name="title">
+              <option value="title">CB1</option>
+              <option value="title">CB2</option>
+            </select>
+            <label for="coursestream">Stream:</label>
+            <select name="stream">
+              <option value="stream">Full Time</option>
+              <option value="stream">Part Time</option>
+            </select>
+              <br>
+              <table class="rwd-table">
+                <tr>
+                  <th>Assignment ID</th>
+                  <th>Subject</th>
+                  <th>Description</th>
+                  <th>Submission Date & Time</th>
+                  <th>Oral Mark</th>
+                  <th>Total Mark</th>
+                </tr>
+                <tr>
+                  <td data-th="assignId" id="asid">103</td>
+                  <td data-th="subject">subj4</td>
+                  <td data-th="descr">descr4</td>
+                  <td data-th="subDate">18/03/2019 11:59p.m.</td>
+                  <td data-th="oralMark">20</td>
+                  <td data-th="totalMark">80</td>
+                </tr>
+                <tr>
+                  <td data-th="assignId" id="asid2">108</td>
+                  <td data-th="subject">subj9</td>
+                  <td data-th="descr">descr9</td>
+                  <td data-th="subDate">25/05/2019 09:00p.m.</td>
+                  <td data-th="oralMark">20</td>
+                  <td data-th="totalMark">80</td>
+                </tr>
+              </table>
+              <br>
+              <input type="submit" value="Submit" onclick="window.alert('Submitted Successfully!')">
+              <input type="button" value="Edit" onclick="window.alert('Not Available right now!')">
+              <input type="reset" value="Reset">
+            </form>
+        </div> 
+      </body>
+</html>

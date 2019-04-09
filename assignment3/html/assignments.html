@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignments</title>
+<link rel="stylesheet" type ="text/css" href="../styles/assignments.css">
+</head>
+<body>
+<h2>Register an Assignment</h2>
+<div>
+<form action="#">
+  <label for="assignmentId">Assignment ID:</label>
+  <input type="number" name="assignmentId" min="100" max="199">
+  <label for="courseId">Course ID:</label>
+  <input type="number" name="courseId" min="200" max="299">
+  <br>
+  <label for="title">Title:</label>
+  <br>
+  <input type="text" name="title" placeholder ="Choose a Title..." maxlength="45">
+  <br>
+  <label for="courseId">Description:</label>
+  <br>
+  <input type="text" name="description" placeholder ="Type a description..." maxlength="45">
+  <br>
+  <label for="dateAndTime">Submission Date and Time:</label>
+  <br>
+  <input type="date" name="subDate">
+  <input type="time" name="subTime">
+  <br>
+  <label for="oralMark">Oral Mark:</label>
+  <input type="number" name="oralMark" min="0" max="20">
+  <br>
+  <label for="totalMark">Total Mark:</label>
+  <input type="number" name="totalMark" min="0" max="80">
+  <br>
+  <input type="submit" value="Submit" onclick="window.alert('Submitted Successfully!')">
+  <input type="button" value="Edit" onclick="window.location.href='editAssignment.html'">
+  <input type="reset" value="Reset">
+</form>
+</div> 
+</body>
+</html>

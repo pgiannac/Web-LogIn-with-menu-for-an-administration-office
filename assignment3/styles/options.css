@@ -1,0 +1,25 @@
+
+body{
+  width: 0px;
+  height: 0px;
+  margin-left:30%;
+  margin-right: 30%; 
+}
+
+input{
+   background-color: transparent;
+}
+.button{
+    border-radius: 25px; 
+    border-style: hidden;
+    width: 450px; height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-block;
+}
+
+.button:hover { 
+  background-color: green;
+}

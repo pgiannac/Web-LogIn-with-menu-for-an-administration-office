@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Courses</title>
+  <link rel="stylesheet" type ="text/css" href="../styles/courses.css">
+</head>
+<body>
+  <h2>Register a Course</h2>
+  <div>
+    <form action="#">
+      <label for="courseId">Course ID:</label>
+      <br>
+      <input type="number" name="id" min="200" max="299">
+      <br>
+      <label for="title">Title:</label>
+      <br>
+      <input type="text" name="title" placeholder="Choose a Title..." maxlength="45">
+      <br>
+      <label for="stream">Stream:</label>
+      <br>
+      <input type="text" name="stream" placeholder="Choose a Stream..." maxlength="45">
+      <br>
+      <label for="type">Type:</label>
+      <br>
+      <input type="text" name="type" placeholder="Choose a Type..." maxlength="45">
+      <br>
+      <label for="startDate">Start Date:</label>
+      <input type="Date" name="startDate">
+      <br>
+      <label for="endDate">End Date:</label> 
+      <input type="Date" name="endDate">
+      <br>
+      <input type="submit" value="Submit" onclick="window.alert('Submitted Successfully!')">
+      <input type="button" value="Edit" onclick="window.location.href='editCourse.html'">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+</body>
+</html>

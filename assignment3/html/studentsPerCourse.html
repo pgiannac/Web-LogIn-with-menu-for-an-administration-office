@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="name" content="content">
+      <title>Students per Course</title>
+      <link rel="stylesheet" type ="text/css" href="../styles/studentsPerCourse.css">
+      <script src="../scripts/studentsPerCourse.js" type="text/javascript" charset="utf-8" async defer></script>
+    </head>
+      <body>
+        <h2>Form with Students per Course</h2>
+        <div>
+          <form action="#" id="select">
+            <label for="courseid">Course ID:</label>
+            <select name="id" id="sid">
+              <option value="cid1">202</option>
+              <option value="cid2">203</option>
+            </select>
+            <label for="coursetitle">Title:</label>
+            <select name="title">
+              <option value="title">CB1</option>
+              <option value="title">CB2</option>
+            </select>
+            <label for="coursestream">Stream:</label>
+            <select name="stream">
+              <option value="stream">Full Time</option>
+              <option value="stream">Part Time</option>
+            </select>
+              <br>
+              <table class="rwd-table">
+                <tr>
+                  <th>Student ID</th>
+                  <th>Last Name</th>
+                  <th>First Name</th>
+                  <th>Mark</th>
+                </tr>
+                <tr>
+                  <td data-th="studentId" id="cid">3</td>
+                  <td data-th="lastName">Kats</td>
+                  <td data-th="firstName">Elpida</td>
+                  <td data-th="Mark">93/100</td>
+                </tr>
+                <tr>
+                  <td data-th="studentId" id="cid2">5</td>
+                  <td data-th="lastName">Fotiadis</td>
+                  <td data-th="firstName">Fotis</td>
+                  <td data-th="Mark">85/100</td>
+                </tr>
+                <tr>
+                  <td data-th="studentId" id="cid3">7</td>
+                  <td data-th="lastName">Giannikos</td>
+                  <td data-th="firstName">Giannis</td>
+                  <td data-th="Mark">68/100</td>
+                </tr>
+              </table>
+              <br>
+              <input type="submit" value="Submit" onclick="window.alert('Submitted Successfully!')">
+              <input type="button" value="Edit" onclick="window.alert('Not Available right now!')">
+              <input type="reset" value="Reset">
+            </form>
+        </div> 
+      </body>
+</html>

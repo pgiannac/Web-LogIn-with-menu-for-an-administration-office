@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="name" content="content">
+      <title>Trainers per Course</title>
+      <link rel="stylesheet" type ="text/css" href="../styles/studentsPerCourse.css">
+      <script src="../scripts/studentsPerCourse.js" type="text/javascript" charset="utf-8" async defer></script>
+    </head>
+      <body>
+        <h2>Form with Trainers per Course</h2>
+        <div>
+          <form action="#" id="select">
+            <label for="courseid">Course ID:</label>
+            <select name="id" id="sid">
+              <option value="cid1">202</option>
+              <option value="cid2">203</option>
+            </select>
+            <label for="coursetitle">Title:</label>
+            <select name="title">
+              <option value="title">CB1</option>
+              <option value="title">CB2</option>
+            </select>
+            <label for="coursestream">Stream:</label>
+            <select name="stream">
+              <option value="stream">Full Time</option>
+              <option value="stream">Part Time</option>
+            </select>
+              <br>
+              <table class="rwd-table">
+                <tr>
+                  <th>Trainer ID</th>
+                  <th>Last Name</th>
+                  <th>First Name</th>
+                  <th>Subject</th>
+                </tr>
+                <tr>
+                  <td data-th="trainerId" id="tid">302</td>
+                  <td data-th="lastName">Sofokleous</td>
+                  <td data-th="firstName">Periklis</td>
+                  <td data-th="subject">sub3</td>
+                </tr>
+                <tr>
+                  <td data-th="trainerId" id="tid2">303</td>
+                  <td data-th="lastName">Perikleous</td>
+                  <td data-th="firstName">Sofoklis</td>
+                  <td data-th="subject">sub4</td>
+                </tr>
+              </table>
+              <br>
+              <input type="submit" value="Submit" onclick="window.alert('Submitted Successfully!')">
+              <input type="button" value="Edit" onclick="window.alert('Not Available right now!')">
+              <input type="reset" value="Reset">
+            </form>
+        </div> 
+      </body>
+</html>

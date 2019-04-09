@@ -1,0 +1,68 @@
+
+body{
+  margin:0; padding: 0;
+  background-color: #a1a1a1;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-clip: bottom;
+  background-attachment: fixed;
+  font-family: Arial;
+  overflow: hidden;
+}
+
+img{border: 0;}
+
+*::selection{background-color: inherit;
+  color:inherit;}
+*::-moz-selection{
+  background-color: inherit;
+  color:inherit;
+}
+
+
+.login{
+  width: 300px; height: 350px;
+  margin: 200px auto;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  border: 2px solid #999;
+  box-shadow: 0 0 12px #333;
+  display: block;
+}
+.login h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+}
+.profile{
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all ease-in-out;
+}
+
+#username{width: 149px;}
+p{text-align: center;}
+
+#uname{margin-bottom: 10px;}
+
+#background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+#login{display: block;}
+#btnLogin{
+  width: 150px;
+  height: 40px;
+  outline: none;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Edit a Course</title>
+  <link rel="stylesheet" type ="text/css" href="../styles/editCourse.css">
+</head>
+<body>
+  <h2>Edit a Course</h2>
+    <div>
+      <form action="#">
+        <label for="courseId">Course ID:</label>
+        <br>
+        <input type="text" name="value" value="205" min="200" max="299">
+        <br>
+        <label for="title">Title:</label>
+        <br>
+        <input type="text" name="title" value="CB7">
+        <br>
+        <label for="stream">Stream:</label>
+        <br>
+        <input type="text" name="stream" value="Java">
+        <br>
+        <label for="type">Type:</label>
+        <br>
+        <input type="text" name="type" value="Full Time">
+        <br>
+        <label for="startDate">Start Date:</label>
+        <input type="text" name="startDate" value="2019-02-04" minlength="10" maxlength="10">
+        <br>
+        <label for="endDate">End Date:</label> 
+        <input type="text" name="endDate" value="2019-05-10" minlength="10" maxlength="10">
+        <br>
+        <input type="submit" value="Submit" onclick="window.alert('Submitted Successfully!')">
+        <input type="reset" value="Delete" onclick="window.alert('Deleted Successfully!')">
+      </form>
+    </div> 
+</body>
+</html>
